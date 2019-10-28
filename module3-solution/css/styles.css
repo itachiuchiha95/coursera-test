@@ -59,10 +59,6 @@ body{
 	margin-top: 15px;
 }
 
-.navbar-collapse{
-	background-color: #D3D3D3;
-}
-
 #nav-list a{
 	color: #F64C72;
 	text-align: center;
@@ -97,10 +93,22 @@ body{
 
 #main-content h2{
 	font-size: 1.8em;
+	font-weight: 700;
+	color:  #242582; 
+	margin-top: 0px;
+	margin-bottom: 20px;
+	font-weight: 800;
+}
+
+#main-content h3{
+	font-size: 1.5em;
 	text-align: center;
 	font-weight: bold;
-	color: black; 
+	padding-top: 20px;
+	color: black;
 }
+
+
 
 #main-content p{
 	font-size: 0.9em;
@@ -109,4 +117,7 @@ body{
 	line-height: 2;
 }
 
+.row{
+	margin: 0px auto 0px;
+}
 
